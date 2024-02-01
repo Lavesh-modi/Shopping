@@ -7,7 +7,7 @@ import Link from "next/link";
 
 function Appbar() {
   return (
-    <header className="shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] " >
+    <header className="shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] fixed w-full z-10   top-0 left-0" >
       
       <div className="flex flex-wrap items-center justify-between gap-5 relative">
         <a href="javascript:void(0)">
