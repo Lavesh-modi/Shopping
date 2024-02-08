@@ -15,10 +15,13 @@ function Product() {
   console.log(product, "product redux");
   useEffect(() => {
     axios.get("https://fakestoreapi.com/products").then((response) => {
-      console.log(response.data, "response data");
+      // console.log(response.data, "response data");
+      // console.log("🚀 ~ axios.get ~ respons̥e:", response.data)
+      // console.table(response.data,"data in the table")
       dispatch(data(response.data));
     
     });
+      
   }, []);
 
 function handleCart(produtData){
